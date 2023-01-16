@@ -1,0 +1,99 @@
+nav, li, a{
+  
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 20px;
+    color: lightsalmon;
+    
+
+}
+.navigator{
+    background-color: teal;
+   
+}
+body{
+    background-color: lightsalmon;
+    font-size: 16px;
+    margin: 0;
+    font-family: sans-serif;
+    
+    
+}
+.intro h1{
+    color: coral;
+    font-size: 2rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+    padding: 36px;
+    margin-top: 160px;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+.shoes{
+    color: blue;
+    text-decoration: underline;
+}
+.yellow{
+    color: yellow;
+    font-size: 1.65rem;
+}
+.article{
+    color: white;
+    font-size: 1rem;
+}
+.p{
+    margin-bottom: 100px;
+}
+.image-section{
+    display: inline-flex; 
+    
+
+}
+.image-section, img{
+    
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+
+}
+.image{
+    margin: 4em auto;
+    width: 30%;
+}
+   @media only screen and (max-width: 1080px){
+    .image-section img{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+   }
+
+.build{
+    background-color: teal;
+    margin-top: 70px;
+   margin-bottom: 70px;
+   height: 300px;
+}
+.build, h1{
+    font-size: 40px;
+    line-height: 100px;
+    color: yellow;
+ 
+}
+.build, p{
+    line-height: 20px;
+    font-size: 26px;
+
+}
+.Come h1{
+    text-align: center;
+}
+.come img{
+   width: 50%;
+   height: auto;
+   display: block;
+   margin: auto;
+}
+footer{
+    background-color: teal;
+    height: 40px;
+}
